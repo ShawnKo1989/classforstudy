@@ -1,0 +1,21 @@
+package day22;
+
+//고급
+class A3 extends Object{
+
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return "A3객체";
+	}
+	
+}
+public class Ex2204 {
+
+	public static void main(String[] args) {
+		A3 obj = new A3();
+		System.out.println(obj);
+		System.out.println(obj.toString());
+	}
+
+}
