@@ -1,12 +1,12 @@
 package day27;
 class A5{
 	private int num=300;
-	void m() {
+	protected void m() {
 		System.out.println(num);
 	}
 }
 class B5 extends A5{
-	void showNum() {
+	public void showNum() {
 //		System.out.println(num);
 		m();
 	}

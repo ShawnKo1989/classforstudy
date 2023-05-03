@@ -5,7 +5,7 @@ class AA{
 	}
 }
 class BB extends AA{
-	void m() {
+	protected void m() {
 		System.out.println("child-m.");
 	}
 }
