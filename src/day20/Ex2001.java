@@ -8,7 +8,7 @@ public class Ex2001 {
 		String s = "Hello";
 		System.out.println(s);
 		System.out.println(s.toString());
-				
+				 
 
 	}
 
